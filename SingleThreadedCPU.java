@@ -54,5 +54,8 @@ public class SingleThreadedCPU {
         }
 
         return result;
+
+        // time complexity: O(nlogn) - nlog n sorting + heap operation
+        // space complexity: O(n) - heap
     }
 }
